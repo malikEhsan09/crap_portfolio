@@ -1,3 +1,78 @@
-body{
-    background-color: purple;
+*{
+    margin: 0;
+}
+
+.head{
+    font-size: 50px;
+    color: #04256d;
+}
+
+  /* CSS for Navbar */
+  header {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #04084c5b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* CSS for Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+main img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* CSS for Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+    .portfolio {
+        height: 500px;
+        width: 530px;
+border-radius: 264px;
+border-bottom-left-radius: 453px;
+border-start-right-radius: revert;
+border-block-start-color: initial;
+border-block-style: revert-layer;
 }
